@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conteúdo IFS 2024</title>
+    <link rel="stylesheet" type="text/css" href="styles.css" media="screen" />
+</head>
+
+<body>
+    <div id="progressbar">
+        <div id="progress">
+            <div id="progress-text">0%</div>
+        </div>
+    </div>
+
+    <ul>
+        <li class="btinicio">
+            <img src="img/casa.png" alt="início" width="30" height="30">
+            <h3><a href="index.html"> Início </a></h3>
+        </li>
+    </ul>
+
+
+        <h1>Conteúdo Programático</h1>
+        <form>
+            <ul>
+            <!-- Administração Pública -->
+            <h2>ADMINISTRAÇÃO PÚBLICA</h2>
+            <label><input type="checkbox" id="caracteristicas_organizacoes_formais" onclick="updateProgressBar(this.id)"> 1 Características básicas das organizações formais modernas: tipos de estrutura organizacional, natureza, finalidades e critérios de departamentalização</label><br>
+            <label><input type="checkbox" id="processo_organizacional" onclick="updateProgressBar(this.id)"> 2 Processo organizacional: planejamento, direção, comunicação, controle e avaliação</label><br>
+            <label><input type="checkbox" id="gestao_processos" onclick="updateProgressBar(this.id)"> 3 Gestão de processos</label><br>
+            <label><input type="checkbox" id="gestao_qualidade" onclick="updateProgressBar(this.id)"> 4 Gestão da qualidade</label><br>
+            <label><input type="checkbox" id="gestao_projetos" onclick="updateProgressBar(this.id)"> 5 Gestão de projetos</label><br>
+            <label><input type="checkbox" id="planejamento_estrategico" onclick="updateProgressBar(this.id)"> 6 Planejamento estratégico</label><br>
+            <label><input type="checkbox" id="excelencia_servicos_publicos" onclick="updateProgressBar(this.id)"> 7 Excelência nos serviços públicos</label><br>
+            <label><input type="checkbox" id="empreendedorismo_governamental" onclick="updateProgressBar(this.id)"> 8 Empreendedorismo governamental e novas lideranças no setor público</label><br>
+            <label><input type="checkbox" id="gestao_resultados" onclick="updateProgressBar(this.id)"> 9 Gestão de resultados na produção de serviços públicos</label><br>
+            <label><input type="checkbox" id="convergencias_diferencas_gestao" onclick="updateProgressBar(this.id)"> 10 Convergências e diferenças entre a gestão pública e a gestão privada</label><br>
+            <label><input type="checkbox" id="paradigma_cliente_gestao_publica" onclick="updateProgressBar(this.id)"> 11 O paradigma do cliente na gestão pública</label><br>
+            <label><input type="checkbox" id="sustentabilidade_acessibilidade" onclick="updateProgressBar(this.id)"> 12 Sustentabilidade pública e acessibilidade</label><br>
+    </ul>
+    <ul>
+            <!-- Gestão de Pessoas -->
+            <h2>GESTÃO DE PESSOAS</h2>
+            <label><input type="checkbox" id="conceitos_importancia" onclick="updateProgressBar(this.id)"> 1 Conceitos, importância, relação com os outros sistemas de organização</label><br>
+            <label><input type="checkbox" id="fundamentos_teorias_escolas" onclick="updateProgressBar(this.id)"> 2 Fundamentos, teorias e escolas da administração e o seu impacto na gestão de pessoas</label><br>
+            <label><input type="checkbox" id="funcao_orgao_rh" onclick="updateProgressBar(this.id)"> 3 Função do órgão de recursos humanos</label><br>
+            <label><input type="checkbox" id="atribuicoes_objetivos" onclick="updateProgressBar(this.id)"> 3.1 Atribuições básicas e objetivos</label><br>
+            <label><input type="checkbox" id="politicas_sistemas_info" onclick="updateProgressBar(this.id)"> 3.2 Políticas e sistemas de informações gerenciais</label><br>
+            <label><input type="checkbox" id="comportamento_organizacional" onclick="updateProgressBar(this.id)"> 4 Comportamento organizacional</label><br>
+            <label><input type="checkbox" id="relacoes_individuo_organizacao" onclick="updateProgressBar(this.id)"> 4.1 Relações indivíduo/organização</label><br>
+            <label><input type="checkbox" id="lideranca_motivacao_desempenho" onclick="updateProgressBar(this.id)"> 4.2 Liderança, motivação e desempenho</label><br>
+            <label><input type="checkbox" id="qualidade_vida" onclick="updateProgressBar(this.id)"> 4.3 Qualidade de vida</label><br>
+            <label><input type="checkbox" id="gestao_por_competencias" onclick="updateProgressBar(this.id)"> 5 Gestão por competências</label><br>
+            <label><input type="checkbox" id="lei_8112" onclick="updateProgressBar(this.id)"> 6 Lei nº 8.112/1990 (direitos, deveres e responsabilidades dos servidores públicos civis)</label><br>
+            <label><input type="checkbox" id="tendencias_gestao_pessoas" onclick="updateProgressBar(this.id)"> 7 Tendências em gestão de pessoas no setor público</label><br>
+    </ul>
+    <ul>
+            <!-- Gestão de Contratos -->
+            <h2>GESTÃO DE CONTRATOS</h2>
+            <label><input type="checkbox" id="legislacao_contratacao" onclick="updateProgressBar(this.id)"> 1 Legislação aplicável à contratação de bens e serviços</label><br>
+            <label><input type="checkbox" id="lei_14133" onclick="updateProgressBar(this.id)"> 1.1 Lei nº 14.133/2021</label><br>
+            <label><input type="checkbox" id="instrucao_normativa_5_2017" onclick="updateProgressBar(this.id)"> 1.2 Instrução Normativa nº 5/2017 da Secretaria de Gestão do Ministério do Planejamento, Desenvolvimento e Gestão</label><br>
+            <label><input type="checkbox" id="elaboracao_fiscalizacao_contratos" onclick="updateProgressBar(this.id)"> 2 Elaboração e fiscalização de contratos</label><br>
+            <label><input type="checkbox" id="clausulas_indicadores_servico" onclick="updateProgressBar(this.id)"> 2.1 Cláusulas e indicadores de nível de serviço</label><br>
+            <label><input type="checkbox" id="papel_fiscalizador_contrato" onclick="updateProgressBar(this.id)"> 2.2 Papel do fiscalizador do contrato</label><br>
+            <label><input type="checkbox" id="papel_preposto_contratada" onclick="updateProgressBar(this.id)"> 2.3 Papel do preposto da contratada</label><br>
+            <label><input type="checkbox" id="acompanhamento_execucao_contratual" onclick="updateProgressBar(this.id)"> 2.4 Acompanhamento da execução contratual</label><br>
+            <label><input type="checkbox" id="registro_notificacao_irregularidades" onclick="updateProgressBar(this.id)"> 2.5 Registro e notificação de irregularidades</label><br>
+            <label><input type="checkbox" id="definicao_aplicacao_penalidades" onclick="updateProgressBar(this.id)"> 2.6 Definição e aplicação de penalidades e sanções administrativas</label><br>
+      </ul>  </form>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            // Recuperar os estados marcados dos checkboxes armazenados no localStorage
+            var checkboxes = document.querySelectorAll('input[type="checkbox"]');
+            checkboxes.forEach(function (checkbox) {
+                var checkboxId = checkbox.id;
+                var isChecked = localStorage.getItem(checkboxId) === "true";
+                checkbox.checked = isChecked;
+            });
+
+            // Atualizar a barra de progresso inicialmente
+            updateProgressBar();
+        });
+
+        function updateProgressBar(checkboxId) {
+            var checkboxes = document.querySelectorAll('input[type="checkbox"]');
+            var checkedCheckboxes = document.querySelectorAll('input[type="checkbox"]:checked');
+            var progress = (checkedCheckboxes.length / checkboxes.length) * 100;
+            document.getElementById('progress').style.width = progress + '%';
+            document.getElementById('progress-text').textContent = progress.toFixed(2) + '%';
+
+
+            // Armazenar o estado marcado no localStorage
+            if (checkboxId) {
+                var checkbox = document.getElementById(checkboxId);
+                localStorage.setItem(checkboxId, checkbox.checked);
+            }
+        }
+    </script>
+</body>
+
+</html>
