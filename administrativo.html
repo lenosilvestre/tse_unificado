@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conteúdo IFS 2024</title>
+    <link rel="stylesheet" type="text/css" href="styles.css" media="screen" />
+</head>
+
+<body>
+    <div id="progressbar">
+        <div id="progress">
+            <div id="progress-text">0%</div>
+        </div>
+    </div>
+
+    <ul>
+        <li class="btinicio">
+            <img src="img/casa.png" alt="início" width="30" height="30">
+            <h3><a href="index.html"> Início </a></h3>
+        </li>
+    </ul>
+
+
+    <h1>Conteúdo Programático</h1>
+    <form>
+        <ul>
+            <!-- Administração Pública -->
+            <h2>ADMINISTRAÇÃO PÚBLICA</h2>
+            <label><input type="checkbox" id="caracteristicas_organizacoes_formais"
+                    onclick="updateProgressBar(this.id)"> 1 Características básicas das organizações formais modernas:
+                tipos de estrutura organizacional, natureza, finalidades e critérios de departamentalização</label><br>
+            <label><input type="checkbox" id="processo_organizacional" onclick="updateProgressBar(this.id)"> 2 Processo
+                organizacional: planejamento, direção, comunicação, controle e avaliação</label><br>
+            <label><input type="checkbox" id="gestao_processos" onclick="updateProgressBar(this.id)"> 3 Gestão de
+                processos</label><br>
+            <label><input type="checkbox" id="gestao_qualidade" onclick="updateProgressBar(this.id)"> 4 Gestão da
+                qualidade</label><br>
+            <label><input type="checkbox" id="gestao_projetos" onclick="updateProgressBar(this.id)"> 5 Gestão de
+                projetos</label><br>
+            <label><input type="checkbox" id="planejamento_estrategico" onclick="updateProgressBar(this.id)"> 6
+                Planejamento estratégico</label><br>
+            <label><input type="checkbox" id="excelencia_servicos_publicos" onclick="updateProgressBar(this.id)"> 7
+                Excelência nos serviços públicos</label><br>
+            <label><input type="checkbox" id="empreendedorismo_governamental" onclick="updateProgressBar(this.id)"> 8
+                Empreendedorismo governamental e novas lideranças no setor público</label><br>
+            <label><input type="checkbox" id="gestao_resultados" onclick="updateProgressBar(this.id)"> 9 Gestão de
+                resultados na produção de serviços públicos</label><br>
+            <label><input type="checkbox" id="convergencias_diferencas_gestao" onclick="updateProgressBar(this.id)"> 10
+                Convergências e diferenças entre a gestão pública e a gestão privada</label><br>
+            <label><input type="checkbox" id="paradigma_cliente_gestao_publica" onclick="updateProgressBar(this.id)"> 11
+                O paradigma do cliente na gestão pública</label><br>
+            <label><input type="checkbox" id="sustentabilidade_acessibilidade" onclick="updateProgressBar(this.id)"> 12
+                Sustentabilidade pública e acessibilidade</label><br>
+        </ul>
+        <ul>
+            <!-- Gestão de Pessoas -->
+            <h2>GESTÃO DE PESSOAS</h2>
+            <label><input type="checkbox" id="conceitos_importancia" onclick="updateProgressBar(this.id)"> 1 Conceitos,
+                importância, relação com os outros sistemas de organização</label><br>
+            <label><input type="checkbox" id="fundamentos_teorias_escolas" onclick="updateProgressBar(this.id)"> 2
+                Fundamentos, teorias e escolas da administração e o seu impacto na gestão de pessoas</label><br>
+            <label><input type="checkbox" id="funcao_orgao_rh" onclick="updateProgressBar(this.id)"> 3 Função do órgão
+                de recursos humanos</label><br>
+            <label><input type="checkbox" id="atribuicoes_objetivos" onclick="updateProgressBar(this.id)"> 3.1
+                Atribuições básicas e objetivos</label><br>
+            <label><input type="checkbox" id="politicas_sistemas_info" onclick="updateProgressBar(this.id)"> 3.2
+                Políticas e sistemas de informações gerenciais</label><br>
+            <label><input type="checkbox" id="comportamento_organizacional" onclick="updateProgressBar(this.id)"> 4
+                Comportamento organizacional</label><br>
+            <label><input type="checkbox" id="relacoes_individuo_organizacao" onclick="updateProgressBar(this.id)"> 4.1
+                Relações indivíduo/organização</label><br>
+            <label><input type="checkbox" id="lideranca_motivacao_desempenho" onclick="updateProgressBar(this.id)"> 4.2
+                Liderança, motivação e desempenho</label><br>
+            <label><input type="checkbox" id="qualidade_vida" onclick="updateProgressBar(this.id)"> 4.3 Qualidade de
+                vida</label><br>
+            <label><input type="checkbox" id="gestao_por_competencias" onclick="updateProgressBar(this.id)"> 5 Gestão
+                por competências</label><br>
+            <label><input type="checkbox" id="lei_8112" onclick="updateProgressBar(this.id)"> 6 Lei nº 8.112/1990
+                (direitos, deveres e responsabilidades dos servidores públicos civis)</label><br>
+            <label><input type="checkbox" id="tendencias_gestao_pessoas" onclick="updateProgressBar(this.id)"> 7
+                Tendências em gestão de pessoas no setor público</label><br>
+        </ul>
+        <ul>
+            <!-- Gestão de Contratos -->
+            <h2>GESTÃO DE CONTRATOS</h2>
+            <label><input type="checkbox" id="legislacao_contratacao" onclick="updateProgressBar(this.id)"> 1 Legislação
+                aplicável à contratação de bens e serviços</label><br>
+            <label><input type="checkbox" id="lei_14133" onclick="updateProgressBar(this.id)"> 1.1 Lei nº
+                14.133/2021</label><br>
+            <label><input type="checkbox" id="instrucao_normativa_5_2017" onclick="updateProgressBar(this.id)"> 1.2
+                Instrução Normativa nº 5/2017 da Secretaria de Gestão do Ministério do Planejamento, Desenvolvimento e
+                Gestão</label><br>
+            <label><input type="checkbox" id="elaboracao_fiscalizacao_contratos" onclick="updateProgressBar(this.id)"> 2
+                Elaboração e fiscalização de contratos</label><br>
+            <label><input type="checkbox" id="clausulas_indicadores_servico" onclick="updateProgressBar(this.id)"> 2.1
+                Cláusulas e indicadores de nível de serviço</label><br>
+            <label><input type="checkbox" id="papel_fiscalizador_contrato" onclick="updateProgressBar(this.id)"> 2.2
+                Papel do fiscalizador do contrato</label><br>
+            <label><input type="checkbox" id="papel_preposto_contratada" onclick="updateProgressBar(this.id)"> 2.3 Papel
+                do preposto da contratada</label><br>
+            <label><input type="checkbox" id="acompanhamento_execucao_contratual" onclick="updateProgressBar(this.id)">
+                2.4 Acompanhamento da execução contratual</label><br>
+            <label><input type="checkbox" id="registro_notificacao_irregularidades"
+                    onclick="updateProgressBar(this.id)"> 2.5 Registro e notificação de irregularidades</label><br>
+            <label><input type="checkbox" id="definicao_aplicacao_penalidades" onclick="updateProgressBar(this.id)"> 2.6
+                Definição e aplicação de penalidades e sanções administrativas</label><br>
+        </ul>
+
+        <ul>
+            <!-- Noções de Direito Constitucional -->
+            <h2>NOÇÕES DE DIREITO CONSTITUCIONAL</h2>
+            <label><input type="checkbox" id="constituicao_1988" onclick="updateProgressBar(this.id)"> 1 Constituição da
+                República Federativa do Brasil de 1988</label><br>
+            <label><input type="checkbox" id="principios_fundamentais" onclick="updateProgressBar(this.id)"> 1.1
+                Princípios fundamentais</label><br>
+            <label><input type="checkbox" id="aplicabilidade_normas" onclick="updateProgressBar(this.id)"> 2
+                Aplicabilidade das normas constitucionais</label><br>
+            <label><input type="checkbox" id="normas_eficacia_plena" onclick="updateProgressBar(this.id)"> 2.1 Normas de
+                eficácia plena, contida e limitada</label><br>
+            <label><input type="checkbox" id="normas_programaticas" onclick="updateProgressBar(this.id)"> 2.2 Normas
+                programáticas</label><br>
+            <label><input type="checkbox" id="direitos_garantias_fundamentais" onclick="updateProgressBar(this.id)"> 3
+                Direitos e garantias fundamentais</label><br>
+            <label><input type="checkbox" id="direitos_deveres_individuais_coletivos"
+                    onclick="updateProgressBar(this.id)"> 3.1 Direitos e deveres individuais e coletivos, direitos
+                sociais, direitos de nacionalidade, direitos políticos, partidos políticos</label><br>
+            <label><input type="checkbox" id="organizacao_politico_administrativa" onclick="updateProgressBar(this.id)">
+                4 Organização político-administrativa do Estado</label><br>
+            <label><input type="checkbox" id="estado_federal_brasileiro" onclick="updateProgressBar(this.id)"> 4.1
+                Estado federal brasileiro, União, estados, Distrito Federal, municípios e territórios</label><br>
+            <label><input type="checkbox" id="administracao_publica" onclick="updateProgressBar(this.id)"> 5
+                Administração pública</label><br>
+            <label><input type="checkbox" id="disposicoes_gerais_servidores_publicos"
+                    onclick="updateProgressBar(this.id)"> 5.1 Disposições gerais, servidores públicos</label><br>
+            <label><input type="checkbox" id="poder_executivo" onclick="updateProgressBar(this.id)"> 6 Poder
+                executivo</label><br>
+            <label><input type="checkbox" id="atribuicoes_responsabilidades_presidente"
+                    onclick="updateProgressBar(this.id)"> 6.1 Atribuições e responsabilidades do presidente da
+                República</label><br>
+            <label><input type="checkbox" id="poder_legislativo" onclick="updateProgressBar(this.id)"> 7 Poder
+                legislativo</label><br>
+            <label><input type="checkbox" id="estrutura_legislativa" onclick="updateProgressBar(this.id)"> 7.1
+                Estrutura</label><br>
+            <label><input type="checkbox" id="funcionamento_atribuicoes_legislativo"
+                    onclick="updateProgressBar(this.id)"> 7.2 Funcionamento e atribuições</label><br>
+            <label><input type="checkbox" id="processo_legislativo" onclick="updateProgressBar(this.id)"> 7.3 Processo
+                legislativo</label><br>
+            <label><input type="checkbox" id="fiscalizacao_contabil_financeira" onclick="updateProgressBar(this.id)">
+                7.4 Fiscalização contábil, financeira e orçamentária</label><br>
+            <label><input type="checkbox" id="comissoes_parlamentares_inquerito" onclick="updateProgressBar(this.id)">
+                7.5 Comissões parlamentares de inquérito</label><br>
+            <label><input type="checkbox" id="poder_judiciario" onclick="updateProgressBar(this.id)"> 8 Poder
+                judiciário</label><br>
+            <label><input type="checkbox" id="disposicoes_gerais_judiciario" onclick="updateProgressBar(this.id)"> 8.1
+                Disposições gerais</label><br>
+            <label><input type="checkbox" id="orgaos_poder_judiciario" onclick="updateProgressBar(this.id)"> 8.2 Órgãos
+                do poder judiciário</label><br>
+            <label><input type="checkbox" id="organizacao_competencias_judiciario" onclick="updateProgressBar(this.id)">
+                8.2.1 Organização e competências, Conselho Nacional de Justiça</label><br>
+            <label><input type="checkbox" id="composicao_competencias_cnj" onclick="updateProgressBar(this.id)"> 8.2.1.1
+                Composição e competências</label><br>
+            <label><input type="checkbox" id="funcoes_essenciais_justica" onclick="updateProgressBar(this.id)"> 9
+                Funções essenciais à justiça</label><br>
+            <label><input type="checkbox" id="ministerio_advocacia_publica" onclick="updateProgressBar(this.id)"> 9.1
+                Ministério Público, Advocacia Pública</label><br>
+            <label><input type="checkbox" id="defensoria_publica" onclick="updateProgressBar(this.id)"> 9.2 Defensoria
+                Pública</label><br>
+        </ul>
+
+        <ul>
+            <!-- Noções de Direito Eleitoral -->
+            <h2>NOÇÕES DE DIREITO ELEITORAL</h2>
+            <label><input type="checkbox" id="codigo_eleitoral" onclick="updateProgressBar(this.id)"> 1 Lei nº
+                4.737/1965 e suas alterações (Código Eleitoral)</label><br>
+            <label><input type="checkbox" id="introducao" onclick="updateProgressBar(this.id)"> 1.1
+                Introdução</label><br>
+            <label><input type="checkbox" id="orgaos_justica_eleitoral" onclick="updateProgressBar(this.id)"> 1.2 Órgãos
+                da justiça eleitoral</label><br>
+            <label><input type="checkbox" id="tse" onclick="updateProgressBar(this.id)"> 1.2.1 Tribunal Superior
+                Eleitoral (TSE)</label><br>
+            <label><input type="checkbox" id="tre" onclick="updateProgressBar(this.id)"> 1.2.2 Tribunais regionais
+                eleitorais</label><br>
+            <label><input type="checkbox" id="juizes_juntas_eleitorais" onclick="updateProgressBar(this.id)"> 1.2.3
+                Juízes eleitorais e juntas eleitorais: composição, competências e atribuições</label><br>
+            <label><input type="checkbox" id="alistamento_eleitoral" onclick="updateProgressBar(this.id)"> 1.3
+                Alistamento eleitoral: qualificação e inscrição, cancelamento e exclusão</label><br>
+            <label><input type="checkbox" id="lei_9504_1997" onclick="updateProgressBar(this.id)"> 2 Lei nº 9.504/1997 e
+                suas alterações</label><br>
+            <label><input type="checkbox" id="disposicoes_gerais" onclick="updateProgressBar(this.id)"> 2.1 Disposições
+                gerais</label><br>
+            <label><input type="checkbox" id="coligacoes" onclick="updateProgressBar(this.id)"> 2.2
+                Coligações</label><br>
+            <label><input type="checkbox" id="convencoes_candidatos" onclick="updateProgressBar(this.id)"> 2.3
+                Convenções para escolha de candidatos</label><br>
+            <label><input type="checkbox" id="registro_candidatos" onclick="updateProgressBar(this.id)"> 2.4 Registro de
+                candidatos</label><br>
+            <label><input type="checkbox" id="sistema_eletronico_votacao" onclick="updateProgressBar(this.id)"> 2.5
+                Sistema eletrônico de votação e totalização dos votos</label><br>
+            <label><input type="checkbox" id="lei_9096_1995" onclick="updateProgressBar(this.id)"> 3 Lei nº 9.096/1995 e
+                suas alterações</label><br>
+            <label><input type="checkbox" id="disposicoes_preliminares" onclick="updateProgressBar(this.id)"> 3.1
+                Disposições preliminares</label><br>
+            <label><input type="checkbox" id="filiacao_partidaria" onclick="updateProgressBar(this.id)"> 3.2 Filiação
+                partidária</label><br>
+            <label><input type="checkbox" id="resolucao_tse_21538_2003" onclick="updateProgressBar(this.id)"> 4
+                Resolução do TSE nº 21.538/2003</label><br>
+            <label><input type="checkbox" id="alistamento_eleitoral_2" onclick="updateProgressBar(this.id)"> 4.1
+                Alistamento eleitoral</label><br>
+            <label><input type="checkbox" id="transferencia_domicilio_eleitoral" onclick="updateProgressBar(this.id)">
+                4.2 Transferência de domicílio eleitoral</label><br>
+            <label><input type="checkbox" id="segunda_via_inscricao" onclick="updateProgressBar(this.id)"> 4.3 Segunda
+                via da inscrição</label><br>
+            <label><input type="checkbox" id="restabelecimento_inscricao_cancelada"
+                    onclick="updateProgressBar(this.id)"> 4.4 Restabelecimento de inscrição cancelada por
+                equívoco</label><br>
+            <label><input type="checkbox" id="formulario_atualizacao" onclick="updateProgressBar(this.id)"> 4.5
+                Formulário de atualização da situação do eleitor</label><br>
+            <label><input type="checkbox" id="titulo_eleitoral" onclick="updateProgressBar(this.id)"> 4.6 Título
+                eleitoral</label><br>
+            <label><input type="checkbox" id="acesso_informacoes_cadastro" onclick="updateProgressBar(this.id)"> 4.7
+                Acesso às informações constantes do cadastro</label><br>
+            <label><input type="checkbox" id="restricao_direitos_politicos" onclick="updateProgressBar(this.id)"> 4.8
+                Restrição de direitos políticos</label><br>
+            <label><input type="checkbox" id="revisao_eleitorado" onclick="updateProgressBar(this.id)"> 4.9 Revisão do
+                eleitorado</label><br>
+            <label><input type="checkbox" id="justificacao_nao_comparecimento" onclick="updateProgressBar(this.id)">
+                4.10 Justificação do não comparecimento à eleição (com a alteração do Acórdão do TSE nº
+                649/2005)</label><br>
+
+        </ul>
+
+
+    </form>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            // Recuperar os estados marcados dos checkboxes armazenados no localStorage
+            var checkboxes = document.querySelectorAll('input[type="checkbox"]');
+            checkboxes.forEach(function (checkbox) {
+                var checkboxId = checkbox.id;
+                var isChecked = localStorage.getItem(checkboxId) === "true";
+                checkbox.checked = isChecked;
+            });
+
+            // Atualizar a barra de progresso inicialmente
+            updateProgressBar();
+        });
+
+        function updateProgressBar(checkboxId) {
+            var checkboxes = document.querySelectorAll('input[type="checkbox"]');
+            var checkedCheckboxes = document.querySelectorAll('input[type="checkbox"]:checked');
+            var progress = (checkedCheckboxes.length / checkboxes.length) * 100;
+            document.getElementById('progress').style.width = progress + '%';
+            document.getElementById('progress-text').textContent = progress.toFixed(2) + '%';
+
+
+            // Armazenar o estado marcado no localStorage
+            if (checkboxId) {
+                var checkbox = document.getElementById(checkboxId);
+                localStorage.setItem(checkboxId, checkbox.checked);
+            }
+        }
+    </script>
+</body>
+
+</html>

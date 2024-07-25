@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Legislação e Educação</title>
+    <link rel="stylesheet" type="text/css" href="styles.css" media="screen" />
+</head>
+
+<body>
+    <div id="progressbar">
+        <div id="progress">
+            <div id="progress-text">0%</div>
+        </div>
+    </div>
+
+    <div id="container">
+
+
+        <ul>
+
+            <li class="btinicio">
+                <img src="img/casa.png" alt="início" width="30" height="30">
+                <h3><a href="index.html"> Início </a></h3>
+
+            </li>
+        </ul>
+        <h1>Conteúdo Programático - Língua Portuguesa</h1>
+        <form>
+            <!-- Língua Portuguesa -->
+             <ul>
+            <h2>LÍNGUA PORTUGUESA</h2>
+            <label><input type="checkbox" id="compreensao_interpretacao_textos" onclick="updateProgressBar(this.id)"> 1 Compreensão e interpretação de textos de gêneros variados</label><br>
+            <label><input type="checkbox" id="reconhecimento_tipos_generos" onclick="updateProgressBar(this.id)"> 2 Reconhecimento de tipos e gêneros textuais</label><br>
+            <label><input type="checkbox" id="dominio_ortografia" onclick="updateProgressBar(this.id)"> 3 Domínio da ortografia oficial</label><br>
+            <label><input type="checkbox" id="dominio_coesao_textual" onclick="updateProgressBar(this.id)"> 4 Domínio dos mecanismos de coesão textual</label><br>
+            <label><input type="checkbox" id="emprego_elementos_referenciacao" onclick="updateProgressBar(this.id)"> 4.1 Emprego de elementos de referenciação, substituição e repetição, de conectores e de outros elementos de sequenciação textual</label><br>
+            <label><input type="checkbox" id="emprego_tempos_modos" onclick="updateProgressBar(this.id)"> 4.2 Emprego de tempos e modos verbais</label><br>
+            <label><input type="checkbox" id="dominio_estrutura_morfossintatica" onclick="updateProgressBar(this.id)"> 5 Domínio da estrutura morfossintática do período</label><br>
+            <label><input type="checkbox" id="emprego_classes_palavras" onclick="updateProgressBar(this.id)"> 5.1 Emprego das classes de palavras</label><br>
+            <label><input type="checkbox" id="relacoes_coordenacao" onclick="updateProgressBar(this.id)"> 5.2 Relações de coordenação entre orações e entre termos da oração</label><br>
+            <label><input type="checkbox" id="relacoes_subordinacao" onclick="updateProgressBar(this.id)"> 5.3 Relações de subordinação entre orações e entre termos da oração</label><br>
+            <label><input type="checkbox" id="emprego_sinais_pontuacao" onclick="updateProgressBar(this.id)"> 5.4 Emprego dos sinais de pontuação</label><br>
+            <label><input type="checkbox" id="concordancia_verbal_nominal" onclick="updateProgressBar(this.id)"> 5.5 Concordância verbal e nominal</label><br>
+            <label><input type="checkbox" id="regencia_verbal_nominal" onclick="updateProgressBar(this.id)"> 5.6 Regência verbal e nominal</label><br>
+            <label><input type="checkbox" id="emprego_crase" onclick="updateProgressBar(this.id)"> 5.7 Emprego do sinal indicativo de crase</label><br>
+            <label><input type="checkbox" id="colocacao_pronomes_atonos" onclick="updateProgressBar(this.id)"> 5.8 Colocação dos pronomes átonos</label><br>
+            <label><input type="checkbox" id="reescrita_frases_paragrafos" onclick="updateProgressBar(this.id)"> 6 Reescrita de frases e parágrafos do texto</label><br>
+            <label><input type="checkbox" id="significacao_palavras" onclick="updateProgressBar(this.id)"> 6.1 Significação das palavras</label><br>
+            <label><input type="checkbox" id="substituicao_palavras_trechos" onclick="updateProgressBar(this.id)"> 6.2 Substituição de palavras ou de trechos de texto</label><br>
+            <label><input type="checkbox" id="reorganizacao_estruturas_oracoes" onclick="updateProgressBar(this.id)"> 6.3 Reorganização da estrutura de orações e de períodos do texto</label><br>
+            <label><input type="checkbox" id="reescrita_textos_diferentes_generos" onclick="updateProgressBar(this.id)"> 6.4 Reescrita de textos de diferentes gêneros e níveis de formalidade</label><br>
+        </ul>
+        </form>
+       
+
+
+
+
+
+
+    </div>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            // Recuperar os estados marcados dos checkboxes armazenados no localStorage
+            var checkboxes = document.querySelectorAll('input[type="checkbox"]');
+            checkboxes.forEach(function (checkbox) {
+                var checkboxId = checkbox.id;
+                var isChecked = localStorage.getItem(checkboxId) === "true";
+                checkbox.checked = isChecked;
+            });
+
+            // Atualizar a barra de progresso inicialmente
+            updateProgressBar();
+        });
+
+        function updateProgressBar(checkboxId) {
+            var checkboxes = document.querySelectorAll('input[type="checkbox"]');
+            var checkedCheckboxes = document.querySelectorAll('input[type="checkbox"]:checked');
+            var progress = (checkedCheckboxes.length / checkboxes.length) * 100;
+            document.getElementById('progress').style.width = progress + '%';
+            document.getElementById('progress-text').textContent = progress.toFixed(2) + '%';
+
+            // Armazenar o estado marcado no localStorage
+            if (checkboxId) {
+                var checkbox = document.getElementById(checkboxId);
+                localStorage.setItem(checkboxId, checkbox.checked);
+            }
+        }
+    </script>
+</body>
+
+</html>

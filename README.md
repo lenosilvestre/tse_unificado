@@ -1,10 +1,10 @@
-**Página de Estudos para o Concurso Público IFS 2024**
+**Página de Estudos para o Concurso Público Concurso TSE Unificado**
 
 ---
 
-**Conteúdo IFS 2024**
+**Conteúdo Concurso TSE Unificado**
 
-Esta página foi criada para fornecer recursos de estudo para o Concurso Público para Professor de Ensino Básico, Técnico e Tecnológico do IFS 2024. Aqui você encontrará materiais relevantes para se preparar adequadamente para o processo seletivo.
+Esta página foi criada para fornecer recursos de estudo para o Concurso Público para o Concurso TSE Unificado. Aqui você encontrará uma lista com as disciplinas e assuntos revantes para se preparar adequadamente para o processo seletivo.
 
 ---
 
@@ -12,43 +12,24 @@ Esta página foi criada para fornecer recursos de estudo para o Concurso Públic
 
 1. **Edital Oficial e Anexos:**
    - Acesse o edital oficial e seus anexos para obter informações detalhadas sobre o concurso.
-<<<<<<< HEAD
-   - [Clique aqui para acessar o edital](https://sistemas.institutoverbena.ufg.br/2024/concurso-ifs-docente/)
+   - [Clique aqui para acessar o edital](https://www.in.gov.br/en/web/dou/-/edital-n-1-cpnuje-de-27-de-maio-de-2024-562654616)
 
 2. **Legislação:**
    - Encontre informações sobre legislação pertinente ao concurso.
-   - [Clique aqui para acessar a legislação](legislacao.html)
+   - [Clique aqui para acessar a legislação](https://lenosilvestre.github.io/tse_unificado/legislacao.html)
 
-3. **Específicos de Biologia:**
-   - Estude os tópicos específicos de Biologia para o concurso.
-   - [Clique aqui para acessar os materiais de Biologia](biologia.html)
-
-4. **Específicos de Informática:**
-   - Aprofunde-se nos conteúdos específicos de Informática exigidos no concurso.
-   - [Clique aqui para acessar os materiais de Informática](informatica.html)
-
-5. **Específicos de Letras Português:**
+3. **Específicos de Português:**
    - Explore os recursos relacionados aos conteúdos específicos de Letras Português.
-   - [Clique aqui para acessar os materiais de Letras Português](letras.html)
-=======
-   - [Clique aqui para acessar o edital](https://www.ifes.edu.br/processosseletivos/servidores/item/3127-concurso-publico-01-2024-docentes)
+   - [Clique aqui para acessar os materiais de Português](https://lenosilvestre.github.io/tse_unificado/portugues.html)
 
-2. **Legislação:**
-   - Encontre informações sobre legislação pertinente ao concurso.
-   - [Clique aqui para acessar a legislação](https://lenosilvestre.github.io/IFS/legislacao.html)
-
-3. **Específicos de Biologia:**
-   - Estude os tópicos específicos de Biologia para o concurso.
-   - [Clique aqui para acessar os materiais de Biologia](https://lenosilvestre.github.io/IFS/biologia.html)
-
-4. **Específicos de Informática:**
+4. **Específico: ÁREA - PROGRAMAÇÃO DE SISTEMAS**
    - Aprofunde-se nos conteúdos específicos de Informática exigidos no concurso.
-   - [Clique aqui para acessar os materiais de Informática](https://lenosilvestre.github.io/IFS/informatica.html)
+   - [Clique aqui para acessar os materiais de Informática](https://lenosilvestre.github.io/tse_unificado/informatica.html)
 
-5. **Específicos de Letras Português:**
-   - Explore os recursos relacionados aos conteúdos específicos de Letras Português.
-   - [Clique aqui para acessar os materiais de Letras Português](https://lenosilvestre.github.io/IFS/letras.html)
->>>>>>> 08d43fc56d97b2a4a3ec88cda9de4af40db91213
+5. **Específicos de Específico: ÁREA - ADMINISTRATIVA:**
+   - Estude os tópicos específicos de Biologia para o concurso.
+   - [Clique aqui para acessar os materiais de Biologia](https://lenosilvestre.github.io/tse_unificado/admistrativo.html)
+
 
 ---
 
@@ -70,8 +51,6 @@ Este projeto foi desenvolvido por Leno Silvestre como uma iniciativa para auxili
 
 **Aviso Legal:**
 
-Esta página é fornecida apenas como uma ferramenta de estudo e não possui vínculo oficial com o Instituto Federal de Sergipe (IFS). Os materiais disponíveis aqui são de responsabilidade de seus respectivos autores e foram reunidos com o objetivo de auxiliar os candidatos em sua preparação para o concurso.
+Esta página é fornecida apenas como uma ferramenta de estudo e não possui vínculo oficial com a banca realizadora do certame. Os materiais disponíveis aqui são de responsabilidade de seus respectivos autores e foram reunidos com o objetivo de auxiliar os candidatos em sua preparação para o concurso.
 <<<<<<< HEAD
-=======
-# ifes
->>>>>>> 08d43fc56d97b2a4a3ec88cda9de4af40db91213
+
