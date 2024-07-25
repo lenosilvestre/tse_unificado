@@ -52,5 +52,5 @@ Este projeto foi desenvolvido por Leno Silvestre como uma iniciativa para auxili
 **Aviso Legal:**
 
 Esta página é fornecida apenas como uma ferramenta de estudo e não possui vínculo oficial com a banca realizadora do certame. Os materiais disponíveis aqui são de responsabilidade de seus respectivos autores e foram reunidos com o objetivo de auxiliar os candidatos em sua preparação para o concurso.
-<<<<<<< HEAD
+
 
