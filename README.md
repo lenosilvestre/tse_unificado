@@ -45,7 +45,7 @@ Esta página foi criada para fornecer recursos de estudo para o Concurso Públic
 
 **Sobre o Desenvolvedor:**
 
-Este projeto foi desenvolvido por Leno Silvestre como uma iniciativa para auxiliar os candidatos no processo de preparação para o Concurso Público IFS 2024.
+Este projeto foi desenvolvido por Leno Silvestre como uma iniciativa para auxiliar os candidatos no processo de preparação para o Concurso Público TSE Unificado 2024.
 
 ---
 
